@@ -20,3 +20,98 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.header {
+  background-image: url("../images/bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  color: #cf2d3a;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+  color: #cf2d3a;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-txt {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.header-txt h1,
+span,
+h3 {
+  font-size: 110px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  color: #cf2d3a;
+  margin-bottom: 15px;
+}
+
+.header-txt span {
+  font-size: 25px;
+}
+
+.header-txt p {
+  color: #afafaf;
+  padding: 0 250px;
+  margin: 25px 0;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 11px 25px;
+  background-color: #d82e37;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+  margin: 25px 0;
+}
